@@ -14,7 +14,7 @@
 
         
         <form class="col-4 p-3 m-auto" method="POST" action="controlador_modificar.php">
-            <h2 class="text-center text-secondary">Modificar persona</h2>
+            <h2 class="text-center text-black">Modificar persona</h2>
             <input type="hidden" name="id2" value=<?= $_GET["id"]?>>
             <?php
                 include "conexiondb.php";
