@@ -1,5 +1,5 @@
 <?php
-
+//inserta los datos a la data base la db ya la incluye en el index
 if(!empty($_POST["btnregistrar"])){
     if(!empty($_POST["nombre"]) and !empty($_POST["apellido"]) and !empty($_POST["dni"]) and !empty($_POST["fechaNacimiento"]) and !empty($_POST["correo"])){
         

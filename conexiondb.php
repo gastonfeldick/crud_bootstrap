@@ -1,4 +1,6 @@
 <?php
+//solo realiza la conexion a la db 
+
 $server="localhost";
 $user="gaston";
 $password="2304";

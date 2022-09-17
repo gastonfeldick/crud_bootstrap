@@ -51,7 +51,7 @@
             <button type="submit" class="btn btn-primary" name="btnregistrar" value="ok">Registar</button>
 
         </form>
-
+<!-- tabla de la db -->
         <div class="col-8 p-3">
             <table class="table table-striped table-hover">
                 <thead class="bg-info">
@@ -67,6 +67,7 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <!-- revisar el while ,se abre y cierra php whats?-->
                     <?php
                         include "conexiondb.php";
                         $sql=$conexion->query("select * from clientes");

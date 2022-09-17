@@ -1,6 +1,6 @@
 <?php
+    //borra la base de datos, abre la base de datos desde este modulo
     include "conexiondb.php";
-    
     if(!empty($_GET["id"])){ 
         echo "acatoy";
         $ID=$_GET["id"];
